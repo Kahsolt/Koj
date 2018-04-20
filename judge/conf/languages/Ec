@@ -1,0 +1,16 @@
+[Meta]
+name = c
+display_name = C
+description = GNU C with std90
+
+[File]
+src = main.c
+out = main
+
+[Compiler]
+cmd = /usr/bin/gcc -O2 -w -fmax-errors=3 -std=c90 -lm -static $src -o $out 
+
+[Runner]
+exec = ./$out
+argv =
+envp = ["PATH=/bin:/usr/bin"]

@@ -1,0 +1,28 @@
+# Prefix Rule
+#
+#  E: enable this language
+#  N: try enable but ignore if not available
+#  D: disable this language
+#
+# Recommend filenames
+#
+#  compile-lang     main
+#  interpret-lang   prog
+#
+###########################################
+#
+# SKELETON
+#
+# [Meta]
+# name = <name for internal idetify>
+# display_name = <name for user display>
+# description = <description info>
+# [File]
+# src = <source filename>
+# out = <compiler output filename>
+# [Compiler]
+# cmd = <compile shell cmd, macro $out $src are expanded>
+# [Runner]
+# exec = <the executable filename, macro $out $src are expanded>
+# argv = <[list of strings], extra argv passed to the executable, macro $out is expanded>
+# envp = <[list of "key=val" strings], extra envp passed to the executable>

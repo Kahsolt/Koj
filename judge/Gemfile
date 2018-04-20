@@ -1,0 +1,11 @@
+source "https://mirrors.tuna.tsinghua.edu.cn/rubygems/"
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# collect system info
+# gem 'sysinfo', '~> 0.8.1'
+# parse .ini config files
+gem 'iniparse', '~> 1.4', '>= 1.4.4'
+# use RabbitMQ to retrieve task
+gem "bunny", ">= 2.6.4"
+# use libffi friendly
+gem 'fiddle', '~> 1.0'

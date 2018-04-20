@@ -1,0 +1,4 @@
+#
+# Mount this folder as a tmpfs.
+# e.g: sudo mount -t tmpfs -o size=100M,noatime,nodev,nosuid koj-tmp tmp
+#

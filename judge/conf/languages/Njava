@@ -1,0 +1,16 @@
+[Meta]
+name = java
+display_name = Java
+description = Oracle Java 9
+
+[File]
+src = Main.java
+out = Main
+
+[Compiler]
+cmd = /usr/bin/javac $src -encoding UTF8
+
+[Runner]
+exec = /usr/bin/java
+argv = ["-Xss1M", "-Xms16M", "-Xmx512M", "-XX:PermSize=8M", "-XX:MaxPermSize=16M", "-Djava.awt.headless=true", "$out"]
+envp = ["PATH=/bin:/usr/bin"]

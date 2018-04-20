@@ -1,0 +1,16 @@
+[Meta]
+name = lua
+display_name = Lua
+description = Lua5.3
+
+[File]
+src = prog.lua
+out = prog.luaout
+
+[Compiler]
+cmd = /usr/bin/luac5.3 -o $out $src
+
+[Runner]
+exec = /usr/bin/lua5.3
+argv = ["$out"]
+envp = ["PATH=/bin:/usr/bin"]

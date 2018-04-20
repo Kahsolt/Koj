@@ -1,0 +1,16 @@
+[Meta]
+name = ruby
+display_name = Ruby
+description = Ruby2.3
+
+[File]
+src = prog.rb
+out =
+
+[Compiler]
+cmd =
+
+[Runner]
+exec = /usr/bin/ruby2.3
+argv = ["$src"]
+envp = ["PATH=/bin:/usr/bin"]

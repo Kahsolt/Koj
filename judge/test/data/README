@@ -1,0 +1,14 @@
+Description:
+  This is a sample A+B question
+
+Input:
+  Two Integer, A and B
+
+Output:
+  One Integer, the sum of A and B
+
+Sample Input:
+  1 2
+
+Sample Output:
+  3

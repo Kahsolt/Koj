@@ -1,0 +1,16 @@
+[Meta]
+name = python2
+display_name = Python2
+description = Python2.7
+
+[File]
+src = prog.py
+out =
+
+[Compiler]
+cmd =
+
+[Runner]
+exec = /usr/bin/python2.7
+argv = ["$src"]
+envp = ["PATH=/bin:/usr/bin"]

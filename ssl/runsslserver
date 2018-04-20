@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Author: kahsolt
+# Create Date: 2018-03-07
+#
+
+DJANGO_HOME=$(dirname $(cd `dirname $0`; pwd))
+SSL_HOME="$DJANGO_HOME/ssl"
+
+#DOMAIN="koj.iriscraft.tk"
+DOMAIN="localhost"
+
+PY3=`which python3`
+
+cd $DJANGO_HOME
+$PY3 manage.py runserver_plus \
+  --cert-file "$SSL_HOME/$DOMAIN.crt" \
+  --key-file "$SSL_HOME/$DOMAIN.key"

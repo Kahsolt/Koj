@@ -1,0 +1,5 @@
+Place here your standard program for A+B question.
+This is used for tool-chain health check.
+
+Filename MUST be 'test'
+Suffix MUST be the language name (see conf/languages)

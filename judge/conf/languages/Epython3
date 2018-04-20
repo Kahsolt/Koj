@@ -1,0 +1,16 @@
+[Meta]
+name = python3
+display_name = Python3
+description = Python3.6
+
+[File]
+src = prog.py
+out =
+
+[Compiler]
+cmd =
+
+[Runner]
+exec = /usr/bin/python3.6
+argv = ["$src"]
+envp = ["PATH=/bin:/usr/bin", "MALLOC_ARENA_MAX=1"]

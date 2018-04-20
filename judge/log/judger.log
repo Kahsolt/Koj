@@ -1,0 +1,47 @@
+# Logfile created on 2018-04-20 18:34:14 +0800 by logger.rb/v1.2.7
+W, [2018-04-20T18:34:14.556033 #22969]  WARN -- Judger: error sync data dir
+W, [2018-04-20T19:17:19.852802 #27722]  WARN -- Judger: error sync data dir
+W, [2018-04-20T19:18:31.967458 #28059]  WARN -- Judger: error sync data dir
+W, [2018-04-20T19:20:53.172850 #28479]  WARN -- Judger: error sync data dir
+W, [2018-04-20T19:21:44.708066 #28792]  WARN -- Judger: error sync data dir
+W, [2018-04-20T19:21:47.496424 #28821]  WARN -- Judger: error sync data dir
+WARN  [2018-04-20 19:22:40] </media/sf_Desktop/Koj/judge/judged/src/runner.c:100> child got an unknown signal 2
+W, [2018-04-20T19:22:41.379104 #29273]  WARN -- Judger: error sync data dir
+W, [2018-04-20T19:22:43.252970 #29316]  WARN -- Judger: error sync data dir
+WARN  [2018-04-20 19:22:48] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:22:55] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:22:58] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:23:16] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:23:17] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:23:30] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:23:45] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:23:58] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:24:06] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:24:07] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:24:14] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:24:50] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+W, [2018-04-20T19:36:24.832989 #1097]  WARN -- Judger: error sync data dir
+WARN  [2018-04-20 19:37:54] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:38:15] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:38:27] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+W, [2018-04-20T19:38:46.815049 #3019]  WARN -- Judger: error sync data dir
+WARN  [2018-04-20 19:39:51] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:39:57] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:40:04] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:40:27] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:40:41] </media/sf_Desktop/Koj/judge/judged/src/runner.c:100> child got an unknown signal 2
+W, [2018-04-20T19:41:34.954697 #4973]  WARN -- Judger: error sync data dir
+WARN  [2018-04-20 19:42:42] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:43:12] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+W, [2018-04-20T19:43:46.817948 #6013]  WARN -- Judger: error sync data dir
+WARN  [2018-04-20 19:44:36] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:44:42] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:44:59] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:45:12] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:45:20] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:45:28] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:45:59] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:46:07] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:46:17] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:46:45] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called
+WARN  [2018-04-20 19:48:03] </media/sf_Desktop/Koj/judge/judged/src/runner.c:167> kill_pid called

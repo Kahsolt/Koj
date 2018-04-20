@@ -1,0 +1,19 @@
+GEM
+  remote: https://mirrors.tuna.tsinghua.edu.cn/rubygems/
+  specs:
+    amq-protocol (2.3.0)
+    bunny (2.9.1)
+      amq-protocol (~> 2.3.0)
+    fiddle (1.0.0)
+    iniparse (1.4.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bunny (>= 2.6.4)
+  fiddle (~> 1.0)
+  iniparse (~> 1.4, >= 1.4.4)
+
+BUNDLED WITH
+   1.16.1

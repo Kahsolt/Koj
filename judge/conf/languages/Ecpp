@@ -1,0 +1,16 @@
+[Meta]
+name = cpp
+display_name = C++
+description = GNU C++ with std11
+
+[File]
+src = main.cpp
+out = main
+
+[Compiler]
+cmd = /usr/bin/g++ -w -fmax-errors=3-std=c++11 $src -lm -o $out
+
+[Runner]
+exec = ./$out
+argv =
+envp = ["PATH=/bin:/usr/bin"]
