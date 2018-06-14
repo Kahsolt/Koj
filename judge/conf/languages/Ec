@@ -1,3 +1,6 @@
+; Filename: Ec
+; Type: Compile Language
+
 [Meta]
 name = c
 display_name = C

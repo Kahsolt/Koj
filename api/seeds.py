@@ -1,5 +1,4 @@
 import random
-import uuid
 from .models import *
 from faker import Faker
 from django.db import transaction

@@ -37,6 +37,7 @@ end
 class Judger
   def initialize
     @uuid = SecureRandom.uuid
+    @prof = open(KOJ_PATH[:log].join("#{@uuid}_task_roundtime.log").to_s, 'a+')
 
     # Folders
     KOJ_PATH.each_value { |dir| Dir.mkdir dir unless Dir.exist? dir }
@@ -91,7 +92,7 @@ class Judger
   def start
     count = 0
     t = Thread.new do
-      prof_fp = File.open(KOJ_PATH[:log].join('prof.log'), 'a')
+      prof_fp = File.open(KOJ_PATH[:log].join("#{@uuid}_task_finished_10s.log"), 'a+')
       prof_fp.puts Time.now
       prof_fp.flush
       while true do
@@ -106,6 +107,7 @@ class Judger
     t.abort_on_exception = true
 
     @queue.subscribe block: true, exclusive: false, manual_ack: true do |delivery_info, properties, body|
+      starttime = Time.now
       data = JSON.parse body
       conf = @toolchains[data['lang']]
       if conf
@@ -200,6 +202,10 @@ class Judger
 
         # rm work_dir
         system "rm -rf #{submit_dir}"
+
+        endtime = Time.now
+        @prof.puts endtime - starttime
+        @prof.flush
       else
         $logger.warn "unsupported language #{data['lang']}"
       end
@@ -209,6 +215,7 @@ class Judger
   def stop
     @channel.close
     @connection.close
+    @prof.close
   end
 
   def status

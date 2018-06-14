@@ -114,6 +114,7 @@ def languages(request):
             {'name': 'python2', 'display_name': 'Python2'},
             {'name': 'python3', 'display_name': 'Python3'},
             {'name': 'ruby',    'display_name': 'Ruby'},
+            {'name': 'lua',     'display_name': 'Lua'},
             # {'name': 'pascal',  'display_name': 'Pascal'},
             # {'name': 'perl',    'display_name': 'Perl'},
             # {'name': 'php',     'display_name': 'PHP'},

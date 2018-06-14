@@ -13,7 +13,7 @@
       <tr class="w3-hoverable" v-for="(problem, index) in problems">
         <td>{{ problem.sn }}</td>
         <td><router-link :to="{name: 'problem_show', params: {id: problem.id}}">{{ problem.title }}</router-link></td>
-        <td>{{ parseFloat(problem.count_submit/problem.count_ac).toFixed(2) }}%</td>
+        <td>{{ parseFloat(problem.count_ac === 0 ? 0 : problem.count_submit/problem.count_ac).toFixed(2) }}%</td>
       </tr>
       </tbody>
     </table>

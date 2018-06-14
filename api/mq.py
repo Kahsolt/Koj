@@ -40,7 +40,7 @@ class MQClient(object):
             res = data.get('result')
             if res == 'AC':
                 u.priority += 10
-            elif res == 'SE':
+            elif res in ['SE', 'PE']:
                 u.priority += 5
             elif res in ['CE', 'RE', 'MLE', 'OLE']:
                 pass    # u.priority += 0

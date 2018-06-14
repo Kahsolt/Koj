@@ -5,8 +5,8 @@
       <strong>Description:</strong><p>{{ problem.description }}</p>
       <strong>Input Description:</strong><p>{{ problem.input_desc }}</p>
       <strong>Output Description:</strong><p>{{ problem.output_desc }}</p>
-      <strong>Input Sample:</strong><p>{{ problem.input_sample }}</p>
-      <strong>Output Sample:</strong><p>{{ problem.output_sample }}</p>
+      <strong>Input Sample:</strong><p>{{ problem.sample_input }}</p>
+      <strong>Output Sample:</strong><p>{{ problem.sample_output }}</p>
       <strong>Hint:</strong><p>{{ problem.hint }}</p>
       <strong>Source:</strong><p>{{ problem.source }}</p>
     </div>
@@ -31,7 +31,7 @@
         problem: {
           sn: null, title: null, description: null,
           input_desc: null, output_desc: null,
-          input_sample: null, output_sample: null,
+          sample_input: null, sample_outpt: null,
           hint: null, source: null,
         },
         solution: {
